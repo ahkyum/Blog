@@ -1,4 +1,4 @@
-h1 {
+.headingMain {
   color: brown;
    border: double;
   border-radius: 60px;
@@ -13,10 +13,13 @@ h1 {
   color: brown;
   text-align: center;
   padding: 0 0 20px 0;
+  margin: 50px;
+  text-shadow: 3px 1px 8px;
 }
 body {
   background-color: cornSilk;
    font-family: cursive;
+  text-indent: 20px;
 }
 .gradient1 {
   background: linear-gradient(to right, #ee9ca7, #ffdde1);
@@ -40,5 +43,33 @@ body {
 }
 .dates {
 text-align: center
- 
+ }
+
+.heading {
+   color: brown;
+  text-shadow: 0 0 5px cornSilk, 0 0 10px cornSilk, 0 0 15px cornSilk, 0 0 20px cornSilk, 0 0 35px crimson, 0 0 40px crimson, 0 0 50px crimson, 0 0 75px crimson;
+   border: double;
+  border-radius: 60px;
+  text-align: center;
+  background-color: brown;
+  padding: 20px;
+  border-width: 50px;
+  border-color: cornSilk;
+  letter-spacing: 10px;
+  }
+p {
+  margin: 0 50px;
 }
+.back {
+  color: brown;
+  margin: 20px 20px 0 110px;
+  border-radius: 100px 0;
+  border-color: cornSilk;
+  height: 30px;
+  width: 120px;
+  font-family: cursive;
+  background-color: cornSilk;
+}
+.back:active {
+  box-shadow: 3px 1px 10px brown;
+  }
